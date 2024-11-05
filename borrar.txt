@@ -1,0 +1,24 @@
+import streamlit as st
+
+st.set_page_config(page_title= "sis")
+
+st.title("prueba streamlit")
+st.header("titulo primero")
+st.subheader("cabezera primera")
+st.caption("que es caption?")
+st.text("dis is a text")
+nombre = "mi nombre"
+st.text(f"Hola {nombre} bienvenido")
+st.markdown("# este es una texto h1 \n ## este es otro text h2 \n ### este es un text h3")
+st.write("sumas: ", 1+1)
+
+st.success("mensaje de exito")
+st.error("mensaje de error")
+
+st.info("mensaje informativo")
+st.exception("mesaje de exepcion")
+
+nombre2 = st.text_input("ingrese nombre")
+numero = st.number_input("ingrese numero")
+
+st.write(nombre2 , numero)
