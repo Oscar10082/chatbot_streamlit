@@ -1,5 +1,5 @@
 import streamlit as st
-from forms.contact import contact_form
+from Forms.contacto import contact_form
 @st.dialog("contacto") 
 def ver_form_contacto():
     contact_form()
