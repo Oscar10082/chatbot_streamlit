@@ -2,7 +2,7 @@ import json
 import requests  # pip install requests
 import streamlit as st
 from streamlit_lottie import st_lottie  # pip install streamlit-lottie
-# https://lottiefiles.com/
+
 
 # Función Lottie abrir un archivo
 
@@ -52,7 +52,7 @@ with st.container():
 
     with R_columna:
  # Lottie desde archivo
-        url = get_url("https://lottie.host/e538cc90-5564-4d75-8acc-65234297e61c/QTMCbf0H9p.json")
+        url = get_url("https://lottie.host/d050552c-62a0-4a2e-a593-d94d9255c02a/6LxeLfvhYY.json")
         st_lottie(url)  # Lottie desde URL
 
 # Servicios
